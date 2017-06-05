@@ -1,0 +1,27 @@
+{
+  "name": "gh-followers",
+  "version": "1.0.0",
+  "description": "Github followers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdelacruzsoto/gh-followers.git"
+  },
+  "keywords": [
+    "github",
+    "followers"
+  ],
+  "author": "Fernando de la Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdelacruzsoto/gh-followers/issues"
+  },
+  "homepage": "https://github.com/fdelacruzsoto/gh-followers#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
