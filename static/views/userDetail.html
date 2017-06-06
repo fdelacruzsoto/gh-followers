@@ -1,6 +1,6 @@
 <md-list-item class="secondary-button-padding">
   <img ng-src="{{$ctrl.user.avatar_url}}" class="md-avatar" alt="{{$ctrl.user.login}}">
   Name: {{$ctrl.user.login}}<br>
-  <md-button class="md-secondary" ng-click="doSecondaryAction($event)">Followers</md-button>
+  <md-button class="md-secondary" ng-click="$ctrl.followers($ctrl.user.followers_url)">Followers</md-button>
   <md-divider md-inset ng-if="!$last"></md-divider>
 </md-list-item>

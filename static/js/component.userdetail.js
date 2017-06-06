@@ -1,6 +1,6 @@
 'use strict';
 
-function UserDetailController() {
+function UserDetailController($location) {
   var ctrl = this;
 
 }
@@ -10,5 +10,8 @@ angular.module('followersApp').component('userDetail', {
   controller: UserDetailController,
   bindings: {
     user: '<'
+  },
+  require: {
+    usersCtrl: '^userList'
   }
 });
